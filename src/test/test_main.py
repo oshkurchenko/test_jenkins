@@ -2,6 +2,7 @@ import unittest
 
 
 class FirstPart(unittest.TestCase):
+    
     def setUp(self):
         pass
 
@@ -12,9 +13,10 @@ class FirstPart(unittest.TestCase):
 
 
 class LastPart(unittest.TestCase):
+
     def setUp(self):
         pass
-    
+
     def test1(self):
         self.assertEqual(False, True)
 
