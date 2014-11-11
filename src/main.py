@@ -1,3 +1,4 @@
-class foo:
-    pass
+class Foo:
+    def __init__(self):
+        pass
 
