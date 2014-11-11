@@ -18,3 +18,6 @@ class LastPart(unittest.TestCase):
         self.assertEqual(False, True)
     def test2(self):
         self.assertEqual(True, False)
+
+    def test3(self):
+        self.assertEqual(True, False)
