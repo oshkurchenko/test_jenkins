@@ -15,7 +15,6 @@ class FirstPart(unittest.TestCase):
         self.assertEqual(True, True)
 
 
-
 class LastPart(unittest.TestCase):
 
     def setUp(self):
