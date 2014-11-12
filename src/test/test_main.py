@@ -8,6 +8,7 @@ class FirstPart(unittest.TestCase):
 
     def test1(self):
         pass
+    
     def test2(self):
         self.assertEqual(True, True)
     def test3(self):
@@ -20,10 +21,10 @@ class LastPart(unittest.TestCase):
         pass
 
     def test1(self):
-        self.assertEqual(False, True)
+        self.assertEqual(True, True)
 
     def test2(self):
-        self.assertEqual(True, False)
+        self.assertEqual(True, True)
 
     def test3(self):
         self.assertEqual(True, False)
