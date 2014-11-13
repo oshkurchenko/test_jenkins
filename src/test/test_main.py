@@ -28,3 +28,6 @@ class LastPart(unittest.TestCase):
 
     def test3(self):
         self.assertEqual(True, False)
+
+    def test4(self):
+        self.assertEqual(True, False)
