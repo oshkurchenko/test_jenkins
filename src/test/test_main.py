@@ -14,6 +14,9 @@ class FirstPart(unittest.TestCase):
     def test3(self):
         self.assertEqual(True, True)
 
+    def test4(self):
+        self.assertEqual(True, True)
+
 
 class LastPart(unittest.TestCase):
 
