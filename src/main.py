@@ -8,4 +8,6 @@ class Foo:
 
     def one_more_method(self, a):
         b = str(a)*3
+        if a > 5:
+            b = str(a)*2
         return b
