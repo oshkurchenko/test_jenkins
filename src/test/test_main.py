@@ -7,6 +7,9 @@ class FirstPart(unittest.TestCase):
     def setUp(self):
         pass
 
+    def test_first_method_13(self):
+        self.assertEqual(main.first_method(), 13)
+
     def test1(self):
         pass
 
