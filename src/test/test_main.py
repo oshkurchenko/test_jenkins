@@ -1,5 +1,6 @@
 import unittest
 import main
+import my_math
 
 
 class FirstPart(unittest.TestCase):
@@ -47,3 +48,11 @@ class LastPart(unittest.TestCase):
 
     def test4(self):
         self.assertEqual(True, True)
+
+class MyMath_test:
+    def setUp(self):
+        pass
+
+    def test_sum(self):
+        sum = my_math.sum
+        self.assertEqual(sum(1,10,-3), 8)
