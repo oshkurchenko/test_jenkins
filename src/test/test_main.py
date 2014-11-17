@@ -49,7 +49,7 @@ class LastPart(unittest.TestCase):
     def test4(self):
         self.assertEqual(True, True)
 
-class MyMath_test:
+class MyMath_test(unittest.TestCase):
     def setUp(self):
         pass
 
