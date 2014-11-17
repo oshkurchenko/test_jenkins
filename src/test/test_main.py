@@ -54,5 +54,5 @@ class MyMath_test:
         pass
 
     def test_sum(self):
-        sum = my_math.sum
-        self.assertEqual(sum(1,10,-3), 8)
+        math = my_math.MyMath
+        self.assertEqual(math.sum(1,10,-3), 8)
