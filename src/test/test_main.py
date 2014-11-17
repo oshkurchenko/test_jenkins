@@ -11,10 +11,13 @@ class FirstPart(unittest.TestCase):
         foo = main.Foo()
         self.assertEqual(foo.first_method(), 13)
 
-    def test_one_more_method_input_less_and_more_5(self):
+    def test_one_more_method_input_less_5(self):
         foo = main.Foo()
         self.assertEqual(foo.one_more_method(4), '444')
-        self.assertEqual(foo.one_more_method(10), '100')
+
+    def test_one_more_method_input_more_5(self):
+        foo = main.Foo()
+        self.assertEqual(foo.one_more_method(10), '1010')
 
     def test1(self):
         pass
