@@ -14,7 +14,7 @@ class FirstPart(unittest.TestCase):
     def test_one_more_method_input_less_and_more_5(self):
         foo = main.Foo()
         self.assertEqual(foo.one_more_method(4), '444')
-        self.assertEqual(foo.one_more_method(10), '1010')
+        self.assertEqual(foo.one_more_method(10), '100')
 
     def test1(self):
         pass
