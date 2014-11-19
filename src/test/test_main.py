@@ -24,9 +24,9 @@ class FirstPart(unittest.TestCase):
         pass
 
     def test2(self):
-        self.assertEqual(True, True)
+        self.assertEqual(False, True)
     def test3(self):
-        self.assertEqual(True, True)
+        self.assertEqual(True, False)
 
     def test4(self):
         self.assertEqual(True, True)
